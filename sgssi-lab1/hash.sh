@@ -5,7 +5,7 @@ read -p "Introduce el hash: " hash
 read -p "Introduce el nombre/nombre en común de los archivos: " nom
 cd $direct
 
-archivo=$(md5sum $nom* | grep $hash)
+archivo=$(md5sum * | grep $hash)
 echo -e "Archivo: [$archivo]"
 echo "Fin"
 exit 0
