@@ -26,7 +26,7 @@ SCENE número romano: descripción
 Ejemplo:
 ```
 ACT I: Romeo and Juliet express their feelings.
-Scene III: Romeo's declaration
+Scene III: Romeo's declaration.
 ```
 #### Enter, Exit, Exeunt
 Los personajes pueden entrar y abandonar el escenario. Un personaje en escenario puede hablarle a otro personaje en escenario, y otros personajes pueden entrar utilizando el constructo **Enter**. 
