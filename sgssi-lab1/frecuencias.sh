@@ -29,6 +29,7 @@ function sustituir(){
 	read -p "PALABRA/LETRA QUE QUIERES REEMPLAZAR (MAYUS): " palabra1
 	read -p "palabra/letra nueva (minus): " palabra2
 	sed -i "s/$palabra1/$palabra2/g" resultado.txt
+	echo "$palabra1 es $palabra2" >> clave.txt
 
 }
 
@@ -53,6 +54,8 @@ fi
 
 #Creamos un archivo de resultado para que todas las modificaciones se guarden en el susodicho
 touch resultado.txt
+touch clave.txt
+echo "" > clave.txt
 cat $filename > resultado.txt
 
 
@@ -75,7 +78,7 @@ echo ""
 	1) freqPalabras;;
 	2) freqLetras;;
 	3) sustituir;;
-	*) salir;;
+	4) salir;;
 	esac
 done
 
