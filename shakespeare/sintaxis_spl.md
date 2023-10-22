@@ -77,16 +77,16 @@ Que al final resulta:
 
 Las variables anteriores se pueden asignar a los personajes que están en escena. Por ejemplo
 ```
-"You stupid fatherless coward!"
+You stupid fatherless coward!
 ```
 El compilador asigna el valor de -4 al personaje al que se está dirigiendo. 
 Con el constructo "as adjective as" también se pueden hacer asignaciones. Por ejemplo:
 ```
-"You are as good as a beautiful red rose"
+You are as good as a beautiful red rose.
 ```
 Esto haría que el compilador asignase el valor 4 al pesonaje al que se están dirigiendo. También se pueden hacer asignaciones utilizando los operadores binarios y unitarios. 
 ```
-"You are as prompt as the difference between the square of thyself and your golden hair."
+You are as prompt as the difference between the square of thyself and your golden hair.
 ```
 La expresión "square of thyself" hace que el compilador calcule el cuadrado del valor asignado al personaje al que se habla. 
 
