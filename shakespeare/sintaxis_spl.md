@@ -72,3 +72,40 @@ Que al final resulta:
 ```
 8 - 1 + 2 = 7 + 2 = 9
 ```
+
+#### Asignar valores
+
+Las variables anteriores se pueden asignar a los personajes que están en escena. Por ejemplo
+```
+"You stupid fatherless coward!"
+```
+El compilador asigna el valor de -4 al personaje al que se está dirigiendo. 
+Con el constructo "as adjective as" también se pueden hacer asignaciones. Por ejemplo:
+```
+"You are as good as a beautiful red rose"
+```
+Esto haría que el compilador asignase el valor 4 al pesonaje al que se están dirigiendo. También se pueden hacer asignaciones utilizando los operadores binarios y unitarios. 
+```
+"You are as prompt as the difference between the square of thyself and your golden hair."
+```
+La expresión "square of thyself" hace que el compilador calcule el cuadrado del valor asignado al personaje al que se habla. 
+
+#### Salida
+"Open your heart" hace que el personaje al que se le habla muestre por salida su valor numérico.
+"Speak your mind" hace que el personaje al que se le habla muestre por salida su valor en caracter.
+
+#### Entrada
+"Listen to your heart" para leer un número.
+"Open your mind" para leer un caracter.
+El valor será asignado al personaje al que se está dirigiendo.
+
+#### Goto
+Las escenas y los actos actúan como etiquetas, así que los saltos son posibles. No es posible saltar a una escena en un acto diferente. La sintaxis sería:
+```
+Let us return to scene I.
+```
+También se puede decir "We shall" o "We must" y en vez de return decir "proceed"
+
+#### Condicionales
+
+
