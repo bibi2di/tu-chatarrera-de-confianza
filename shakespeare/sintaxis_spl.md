@@ -30,7 +30,7 @@ Scene III: Romeo's declaration.
 ```
 #### Enter, Exit, Exeunt
 Los personajes pueden entrar y abandonar el escenario. Un personaje en escenario puede hablarle a otro personaje en escenario, y otros personajes pueden entrar utilizando el constructo **Enter**. 
-Los personajes pueden abandonar la escena utilizando el constructo **Exis**. El plural de Exit es **Exeunt** (utilizado sin más añadidos, hace que todos los personajes abandonen el escenario).
+Los personajes pueden abandonar la escena utilizando el constructo **Exit**. El plural de Exit es **Exeunt** (utilizado sin más añadidos, hace que todos los personajes abandonen el escenario).
 Cuando hay dos personajes en escena, el uso de "You" no será ambiguo. 
 
 #### Frases
